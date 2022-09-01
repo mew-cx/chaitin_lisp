@@ -1,0 +1,14 @@
+# .gitattributes
+
+# Default behavior, if core.autocrlf is unset.
+* text=auto
+
+# Text files to always have CRLF (dos) line endings on checkout.
+*.bat text eol=crlf
+
+# Text files to always have LF (unix) line endings on checkout.
+*.sh text eol=lf
+
+# Override https://github.com/github/linguist/ for better stats.
+samples1/*.l linguist-language=lisp
+samples1/*.r linguist-vendored
